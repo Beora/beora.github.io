@@ -1,0 +1,81 @@
+/* Icons */
+.footer-icon 
+{
+    color: #fff;
+}
+.block-half {
+  position: relative;
+  width: 100%;
+  padding: 30px 20px;
+  color: inherit;
+  background-color: #fff;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+  @media (min-width: 576px) {
+  .block-half {
+    padding: 120px 1rem; }
+    .block:not(.block-secondary) .lead {
+      font-size: 1.5rem; } }
+
+.block-conversation {
+  color: #fff;
+  background-color: #5e5f5f; }
+  .block-conversation.block-bordered:before,
+  .block-conversation hr {
+    border-color: rgba(255, 255, 255, 0.2); }
+  .block-conversation h1, .block-conversation h2, .block-conversation h3, .block-conversation h4, .block-conversation h5, .block-conversation h6,
+  .block-conversation .h1, .block-conversation .h2, .block-conversation .h3, .block-conversation .h4, .block-conversation .h5, .block-conversation .h6 {
+    color: inherit; }
+  .block-conversation .btn-outline.btn-secondary {
+    color: #fff;
+    background-image: none;
+    background-color: transparent;
+    border-color: #fff; }
+    .block-conversation .btn-outline.btn-secondary:hover {
+      color: #fff;
+      background-color: #fff;
+      border-color: #fff; }
+    .block-conversation .btn-outline.btn-secondary:focus, .block-conversation .btn-outline.btn-secondary.focus {
+      box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.5); }
+    .block-conversation .btn-outline.btn-secondary.disabled, .block-conversation .btn-outline.btn-secondary:disabled {
+      color: #fff;
+      background-color: transparent; }
+    .block-conversation .btn-outline.btn-secondary:active, .block-conversation .btn-outline.btn-secondary.active,
+    .show > .block-conversation .btn-outline.btn-secondary.dropdown-toggle {
+      color: #fff;
+      background-color: #fff;
+      border-color: #fff; }
+  .block-conversation .btn-outline.btn-secondary:focus, .block-conversation .btn-outline.btn-secondary.focus, .block-conversation .btn-outline.btn-secondary:hover, .block-conversation .btn-outline.btn-secondary:active, .block-conversation .btn-outline.btn-secondary.active,
+  .block-conversation .btn-outline.btn-secondary .open > .dropdown-toggle,
+  .block-conversation .btn-outline:focus,
+  .block-conversation .btn-outline.focus,
+  .block-conversation .btn-outline:hover,
+  .block-conversation .btn-outline:active,
+  .block-conversation .btn-outline.active,
+  .block-conversation .btn-outline .open > .dropdown-toggle {
+    color: #000; }
+    .block-conversation .btn-outline.btn-secondary:focus:hover, .block-conversation .btn-outline.btn-secondary:focus:focus, .block-conversation .btn-outline.btn-secondary:focus.focus, .block-conversation .btn-outline.btn-secondary.focus:hover, .block-conversation .btn-outline.btn-secondary.focus:focus, .block-conversation .btn-outline.btn-secondary.focus.focus, .block-conversation .btn-outline.btn-secondary:hover:hover, .block-conversation .btn-outline.btn-secondary:hover:focus, .block-conversation .btn-outline.btn-secondary:hover.focus, .block-conversation .btn-outline.btn-secondary:active:hover, .block-conversation .btn-outline.btn-secondary:active:focus, .block-conversation .btn-outline.btn-secondary:active.focus, .block-conversation .btn-outline.btn-secondary.active:hover, .block-conversation .btn-outline.btn-secondary.active:focus, .block-conversation .btn-outline.btn-secondary.active.focus,
+    .block-conversation .btn-outline.btn-secondary .open > .dropdown-toggle:hover,
+    .block-conversation .btn-outline.btn-secondary .open > .dropdown-toggle:focus,
+    .block-conversation .btn-outline.btn-secondary .open > .dropdown-toggle.focus,
+    .block-conversation .btn-outline:focus:hover,
+    .block-conversation .btn-outline:focus:focus,
+    .block-conversation .btn-outline:focus.focus,
+    .block-conversation .btn-outline.focus:hover,
+    .block-conversation .btn-outline.focus:focus,
+    .block-conversation .btn-outline.focus.focus,
+    .block-conversation .btn-outline:hover:hover,
+    .block-conversation .btn-outline:hover:focus,
+    .block-conversation .btn-outline:hover.focus,
+    .block-conversation .btn-outline:active:hover,
+    .block-conversation .btn-outline:active:focus,
+    .block-conversation .btn-outline:active.focus,
+    .block-conversation .btn-outline.active:hover,
+    .block-conversation .btn-outline.active:focus,
+    .block-conversation .btn-outline.active.focus,
+    .block-conversation .btn-outline .open > .dropdown-toggle:hover,
+    .block-conversation .btn-outline .open > .dropdown-toggle:focus,
+    .block-conversation .btn-outline .open > .dropdown-toggle.focus {
+      color: #000; }

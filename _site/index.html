@@ -1,6 +1,74 @@
---- 
-layout: default 
----
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Beora Website">
+    <meta name="keywords" content="">
+    <meta name="author" content="Raul Espinosa">
+
+    <title>Beora</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,700" rel="stylesheet">
+    <link href="css/toolkit-minimal.css" rel="stylesheet">
+    <link href="css/application-minimal.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/glyphicons.css" rel="stylesheet">
+    <link href="css/glyphicons-social.css" rel="stylesheet">
+    <style>
+      /* note: this is a hack for ios iframe for bootstrap themes shopify page */
+      /* this chunk of css is not part of the toolkit :) */
+      /* …curses ios, etc… */
+      @media (max-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
+        body {
+          width: 1px;
+          min-width: 100%;
+          *width: 100%;
+        }
+        #stage {
+          height: 1px;
+          overflow: auto;
+          min-height: 100vh;
+          -webkit-overflow-scrolling: touch;
+        }
+      }
+    </style>
+  </head>
+<body>
+<div class="container pt-4">
+  <nav class="navbar navbar-light navbar-toggleable-sm navbar-static-top text-uppercase app-navbar mb-5">
+    <button
+      class="navbar-toggler navbar-toggler-right hidden-md-up"
+      type="button"
+      data-toggle="collapse"
+      data-target="#navbarResponsive"
+      aria-controls="navbarResponsive"
+      aria-expanded="false"
+      aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand mr-auto" href="index.html">
+      <img src="http://res.cloudinary.com/beora/image/upload/c_scale,h_46/v1497160100/website/publication_logo.png" alt="Beora Logo" class="img-responsive" />
+    </a>
+
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="nav nav-bordered navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link active" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Minimal</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Components</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Docs</a>
+        </li>
+      </ul>      
+    </div><!--/.nav-collapse -->
+  </nav>
+</div>
 
 <div class="block block-inverse text-center">
   <h1 class="block-title">Empowered to Create Change</h1>
@@ -240,3 +308,47 @@ layout: default
     </small>
   </div>
 </div>
+
+
+<div class="block app-block-footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-2 mb-4">
+        <ul class="list-unstyled list-spaced">
+          <li><h6 class="text-uppercase">Products</h6></li>
+          <li>Placeholder</li>
+        </ul>
+      </div>
+      <div class="col-sm-2 mb-4">
+        <ul class="list-unstyled list-spaced">
+          <li><h6 class="text-uppercase">Extras</h6></li>
+          <li>Placeholder</li>
+        </ul>
+      </div>
+      <div class="col-sm-2 mb-4">
+        <ul class="list-unstyled list-spaced">
+          <li><h6 class="text-uppercase">Support</h6></li>
+          <li>Placeholder</li>
+        </ul>
+      </div>
+       <div class="col-sm-6">
+        <h6 class="text-uppercase">Company</h6>
+        <ul class="list-unstyled list-spaced list-inline">
+          <li class="list-inline-item"><a href="https://beora.blog" target="_blank"><span class="social x1 social-medium footer-icon"></span></a></li>
+          <li class="list-inline-item"><a href="http://www.facebook.com/beoracom" target="_blank"><span class="social x1 social-facebook footer-icon"></span></a></li>
+          <li class="list-inline-item"><a href="https://twitter.com/beoracom" target="_blank"><span class="social x1 social-twitter footer-icon"></span></a></li>
+          <li class="list-inline-item"><a href="https://github.com/Beora" target="_blank"><span class="social x1 social-github footer-icon"></span></a></li>        
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="js/jquery.min.js"></script>
+<script src="js/tether.min.js"></script>
+<script src="js/toolkit.js"></script>
+<script src="js/application.js"></script>
+</body>
+
+</html>
+

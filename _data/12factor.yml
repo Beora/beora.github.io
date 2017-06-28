@@ -1,0 +1,60 @@
+- name: One codebase, one application
+  icon: glyphicons-git-branch
+  description: Cloud-native applications must always consist of a single codebase that is tracked in a version control system. A codebase is a soruce code repository or a set of repositories that share a common root.
+
+- name: API First, Mobile First
+  icon: glyphicons-cube-empty
+  description: We process all the images you upload and take full advantage of modern cloud based storage to host them at blazing fast speeds.
+
+- name: Dependency Management
+  icon: glyphicons-paired
+  description: We process all the images you upload and take full advantage of modern cloud based storage to host them at blazing fast speeds.
+
+- name: Design, build, release, and run
+  icon: glyphicons-blacksmith
+  description: We process all the images you upload and take full advantage of modern cloud based storage to host them at blazing fast speeds.
+
+- name: Configuration , credentials, and code
+  icon: glyphicons-cogwheels
+  description: We process all the images you upload and take full advantage of modern cloud based storage to host them at blazing fast speeds.
+
+- name: Logging
+  icon: glyphicons-blog
+  description: We process all the images you upload and take full advantage of modern cloud based storage to host them at blazing fast speeds.
+  
+- name: Disposability
+  icon: glyphicons-git-delete
+  description: We process all the images you upload and take full advantage of modern cloud based storage to host them at blazing fast speeds.
+
+- name: Backing Services
+  icon: glyphicons-server
+  description: We process all the images you upload and take full advantage of modern cloud based storage to host them at blazing fast speeds.
+
+- name: Environment parity
+  icon: glyphicons-git-branch
+  description: We process all the images you upload and take full advantage of modern cloud based storage to host them at blazing fast speeds.
+  
+- name: Administrative processes
+  icon: glyphicons-git-branch
+  description: We process all the images you upload and take full advantage of modern cloud based storage to host them at blazing fast speeds.
+
+- name: Port binding
+  icon: glyphicons-git-branch
+  description: We process all the images you upload and take full advantage of modern cloud based storage to host them at blazing fast speeds.
+
+- name: Stateless processes
+  icon: glyphicons-git-branch
+  description: We process all the images you upload and take full advantage of modern cloud based storage to host them at blazing fast speeds.
+  
+- name: Concurrency
+  icon: glyphicons-git-branch
+  description: We process all the images you upload and take full advantage of modern cloud based storage to host them at blazing fast speeds.
+
+- name: Telemetry
+  icon: glyphicons-git-branch
+  description: We process all the images you upload and take full advantage of modern cloud based storage to host them at blazing fast speeds.
+
+- name: Authentication and Authorization
+  icon: glyphicons-keys
+  description: We process all the images you upload and take full advantage of modern cloud based storage to host them at blazing fast speeds.
+  

@@ -1,10 +1,38 @@
 --- 
 layout: default 
 ---
-
 <div class="block block-inverse text-center">
-  <h1 class="block-title">Our Process</h1>
-  <br />
-  <button type="button" class="btn btn-lg btn-pill btn-secondary">Learn about our process</button>
-    <br />
+   <h1 class="block-title">Our Process</h1>
+   <br />
+   <button type="button" class="btn btn-lg btn-pill btn-secondary">Learn about our process</button>
+   <br />
 </div>
+<div class="block block-bordered-lg">
+   <div class="container">
+      <div class="row">
+         <div class="col-sm-8 offset-sm-2 text-center mb-5">
+            <p class="lead mx-auto">With over <strong>15 years helping startups</strong>, we aim to discover and deconstruct to break things down and build them better ; we use strength and simplicity to deliver enduring solutions.</p>
+         </div>
+      </div>
+	  {% for factor in site.data.12factor %}
+      <div class="row">
+         <div class="col-sm-12">
+            <ul class="featured-list">
+               <li class="mb-5">
+                  <div class="featured-list-icon text-primary">
+                     <span class="glyphicons {{ factor.icon }}"></span>
+                  </div>
+                  <p class="featured-list-icon-text mb-0"><strong>{{ factor.name }}</strong></p>
+                  <p class="featured-list-icon-text">
+                     {{ factor.description }}
+                  </p>
+               </li>
+            </ul>
+         </div>
+         <!-- Column -->        
+      </div><!-- Row -->
+      {% endfor %}
+   </div>
+   <!-- Container -->
+</div>
+<!-- Block -->

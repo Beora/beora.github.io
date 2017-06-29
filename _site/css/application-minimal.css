@@ -8,7 +8,6 @@
  overflow: hidden;
 }
 
-
 /* navbar */
 .app-navbar {
   font-size: 14px;
@@ -39,7 +38,7 @@
 /* block img */
 .app-block-game img,
 .app-block-stats img {
-  width: 100%;
+  width: 50%;
 }
 @media (max-width: 480px) {
   .app-block-game-img {
@@ -49,7 +48,7 @@
 
 /* stats hr */
 .app-block-stats hr {
-  width: calc(80% + 60px);
+  width: calc(80% + 40px);
 }
 
 /* design block */

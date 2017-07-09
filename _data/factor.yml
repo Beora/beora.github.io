@@ -31,27 +31,27 @@
   description: We process all the images you upload and take full advantage of modern cloud based storage to host them at blazing fast speeds.
 
 - name: Environment parity
-  icon: glyphicons-git-branch
+  icon: glyphicons-copy
   description: We process all the images you upload and take full advantage of modern cloud based storage to host them at blazing fast speeds.
   
 - name: Administrative processes
-  icon: glyphicons-git-branch
+  icon: glyphicons-pencil
   description: We process all the images you upload and take full advantage of modern cloud based storage to host them at blazing fast speeds.
 
 - name: Port binding
-  icon: glyphicons-git-branch
+  icon: glyphicons-paired
   description: We process all the images you upload and take full advantage of modern cloud based storage to host them at blazing fast speeds.
 
 - name: Stateless processes
-  icon: glyphicons-git-branch
+  icon: glyphicons-umbrella
   description: We process all the images you upload and take full advantage of modern cloud based storage to host them at blazing fast speeds.
   
 - name: Concurrency
-  icon: glyphicons-git-branch
+  icon: glyphicons-paired
   description: We process all the images you upload and take full advantage of modern cloud based storage to host them at blazing fast speeds.
 
 - name: Telemetry
-  icon: glyphicons-git-branch
+  icon: glyphicons-dashboard
   description: We process all the images you upload and take full advantage of modern cloud based storage to host them at blazing fast speeds.
 
 - name: Authentication and Authorization

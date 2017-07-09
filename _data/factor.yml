@@ -2,9 +2,9 @@
   icon: glyphicons-git-branch
   description: Cloud-native applications must always consist of a single codebase that is tracked in a version control system. A codebase is a soruce code repository or a set of repositories that share a common root.
 
-- name: API First, Mobile First
+- name: API First
   icon: glyphicons-cube-empty
-  description: We process all the images you upload and take full advantage of modern cloud based storage to host them at blazing fast speeds.
+  description: API fist frees organizations from the waterfall, deliberately engineered system that follows a preplanned orchestration pattern, and allow products to evolve into organic, self-organizeing ecosystems that can grow to handle new and unforseen demands.
 
 - name: Dependency Management
   icon: glyphicons-paired

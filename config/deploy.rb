@@ -5,6 +5,7 @@ set :application, 'beora'
 set :repo_url, 'git@github.com:Beora/beora.github.io.git'
 set :scm, :git
 set :stage, :production
+set :user, 'deploy'
 
 set :format, :pretty
 namespace :deploy do

@@ -1,3 +1,5 @@
+role :web, "107.170.211.72"
+
 # server-based syntax
 # ======================
 # Defines a single server with a list of roles and multiple properties.

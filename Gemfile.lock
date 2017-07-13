@@ -1,0 +1,22 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    git-version-bump (0.15.1)
+    puma (3.9.1)
+    rack (1.6.8)
+    rack-contrib (1.4.0)
+      git-version-bump (~> 0.15)
+      rack (~> 1.4)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  puma
+  rack-contrib
+
+RUBY VERSION
+   ruby 2.3.3p222
+
+BUNDLED WITH
+   1.15.1

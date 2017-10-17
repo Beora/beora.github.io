@@ -1,9 +1,9 @@
-.maxit 
+.maxit
 {
   height: 100%;
 }
 /* Icons */
-.footer-icon 
+.footer-icon
 {
     color: #fff;
 }
@@ -19,7 +19,7 @@
 
 .block-title
 {
-  background-color: #b5353a;
+  background-color: #951b1e;
 }
 /* header block */
 .app-graph {
@@ -87,7 +87,7 @@
 
 /* brand ribbon block */
 .app-ribbon {
-  background: #b5353a;
+  background: #951b1e;
 }
 .app-ribbon .container {
   padding-left: 0;
@@ -124,7 +124,7 @@
 
 /* footer block */
 .app-footer {
-  background-color: #262F36;
+  background-color: #282828;
 }
 .app-footer a {
   color: #fff;

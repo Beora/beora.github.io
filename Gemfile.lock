@@ -42,7 +42,7 @@ GEM
       forwardable-extended (~> 2.6)
     public_suffix (3.0.3)
     puma (3.10.0)
-    rack (1.6.8)
+    rack (1.6.11)
     rack-contrib (1.7.0)
       rack (~> 1.4)
     rb-fsevent (0.10.3)

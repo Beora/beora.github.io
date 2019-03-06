@@ -180,3 +180,28 @@
     align-items: center;
   }
 }
+
+.team-grid img{
+  max-width: 100%;
+  padding-bottom: 15px;
+}
+
+.team-grid h5{
+  font-weight: 300;
+  font-size: 1.1rem;
+  padding-top: 5px;
+}
+
+.team-grid h1{
+  margin: 0;
+}
+
+.team-grid span.social{
+  background-color: black;
+  border-radius: 3px;
+  border: solid 1px black;
+}
+
+.team-grid ul{
+  padding-top:10px;
+}

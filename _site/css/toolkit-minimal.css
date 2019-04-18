@@ -263,7 +263,7 @@ html {
   -webkit-tap-highlight-color: transparent; }
 
 body {
-  font-family: "Work sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Roboto', Helvetica, "Helvetica Neue", Arial, "Work sans", sans-serif;
   font-size: 15px;
   font-weight: 300;
   line-height: 1.4;
@@ -8218,7 +8218,8 @@ textarea {
     .nav-bordered > .nav-item > .nav-link.active, .nav-bordered > .nav-item > .nav-link.active:hover, .nav-bordered > .nav-item > .nav-link.active:focus {
       font-weight: 700;
       color: #b5353a;
-      border-bottom-color: #b5353a; }
+      /* RE border-bottom-color: #b5353a; */
+     }
   .nav-bordered > .nav-item + .nav-item {
     margin-left: 30px; }
 

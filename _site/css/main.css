@@ -41,6 +41,50 @@
 }
 
 
+h3.beora-service-product {
+  border-top: #951b1e 5px solid;
+  font-size: 16px;
+  text-transform: capitalize;
+  text-align: left;
+}
+h3.beora-service-design {
+  border-top: #951b1e 5px solid;
+  font-size: 16px;
+  text-transform: capitalize;
+  text-align: left;
+}
+h3.beora-service-development {
+  border-top: #951b1e 5px solid;
+  font-size: 16px;
+  text-transform: capitalize;
+  text-align: left;
+}
+h2.beora-service-product {
+  text-align: left;
+}
+h2.beora-service-design {
+  text-align: left;
+}
+h2.beora-service-development {
+  text-align: left;
+}
+
+ul.beora-list { 
+  list-style-type: none;
+  padding: 0;
+  line-height: 1.8;
+  text-align: left;
+  font-weight: 700;
+}
+
+p.highlights { 
+  text-align: left;
+  font-size: 12pt;
+}
+div.onphoto {
+  background-color: #951b1e;
+}
+
 /* iphone block */
 .app-iphone-block {
   padding-bottom: 60px;
